@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.game-box{
+    display: block;
+    position: relative;
+    height: 500px;
+    width: 800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    background-color: black;
+}
+.select{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background-color: lightgrey;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+.player{
+    display: none;    
+}
+.arena{
+    display: inline-block;
+}
+h1{
+    display: block;
+}
+.btn-arena{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.btn-next{
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;  
+}
+.btn-next2{
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    margin: 30px;
+    border-radius: 10px;  
+}
+.select-one{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+.select-two{
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+.player-one{
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+    left: 0px;
+}
+.player-two{
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    bottom: 0px;
+    right: 0px;
+}
